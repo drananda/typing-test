@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 70%;
+    margin: 1em auto;
+}
+#display{
+    font-size: 16pt;
+    margin-bottom: 1em;
+}
+#input-text{
+    width: 30rem;
+    font-size: 16pt;
+    padding: 0.3em 0.7em;
+    margin: 1em 0;
+    outline: none;
+}
+.title{
+    text-align: center;
+    margin: 1em 0;
+}
+.result{
+    display: flex;
+}
+.result ul li{
+    list-style: none;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: -1px;
+}
+.wrong{
+    border: none;
+    box-shadow: 1px 1px 2px 2px red, -1px -1px 2px 2px red;
+}
+.correct{
+    border: none;
+    box-shadow: 1px 1px 2px 2px green, -1px -1px 2px 2px green;
+}
